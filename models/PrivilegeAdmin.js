@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 var PrivilegeAdmin = mongoose.model('PrivilegeAdmin', {
-	privilegeID: { type: Integer },
+	privilegeID: { type: Number },
 	privilegeNom: { type: String },
 	read: { type: Boolean },
 	write: { type: Boolean }, 

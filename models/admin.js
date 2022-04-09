@@ -5,7 +5,7 @@ var admin = mongoose.model('admin', {
 	adminNom: { type: String },
 	adminPrenom: { type: String },
 	adminPassword: { type: String }, 
-	privilegeID: { type: Integer }
+	privilegeID: { type: Number }
 
 });
 
