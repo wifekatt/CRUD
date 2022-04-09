@@ -1,5 +1,5 @@
 module.exports = {
-    adminRoute: require("./user.routes.js"),
+    adminRoute: require("./admin.routes.js"),
     condidatRoute: require("./condidat.routes.js"),
     electeurRoute: require("./electeur.routes.js"),
     listCondidatRoute: require("./listCondidat.routes.js"),
