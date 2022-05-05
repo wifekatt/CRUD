@@ -10,4 +10,4 @@ router.delete('/:_id', controller.PrivilegeAdminController.deleteOne) // delete 
 
 
 
-module.exports = router
+module.exports = router;

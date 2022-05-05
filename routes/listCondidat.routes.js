@@ -10,4 +10,4 @@ router.delete('/:_id', controller.listCondidatController.deleteOne) // delete on
 
 
 
-module.exports = router
+module.exports = router;
