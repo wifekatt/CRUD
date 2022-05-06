@@ -10,6 +10,7 @@ module.exports = {
       res.status(500).send(error);
     }
   },
+  
   async create(req, res) {
     try {
       const admin = await services.adminService.create(req.body);
